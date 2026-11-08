@@ -108,4 +108,3 @@ This Agreement and any mandatory platform terms are the entire agreement concern
 For licensing questions, use the contact method in [SUPPORT.md](SUPPORT.md).
 
 Copyright (c) 2026 Bytebrain Technology Solutions. All rights reserved.
-
