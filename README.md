@@ -8,8 +8,10 @@ Space to inspect it without opening another application.
 ### Recommended: Microsoft Store
 
 Use the Microsoft Store for the trusted production installation. Microsoft signs the package and
-delivers updates automatically. The direct Store link will be added here as soon as the listing is
-live; until then, this repository is the official status page.
+delivers updates automatically.
+
+- [Install Quick Peek from Microsoft Store](https://apps.microsoft.com/detail/9PNXLCSBV6TT)
+- Store ID: `9PNXLCSBV6TT`
 
 ### Portable preview
 
@@ -33,7 +35,7 @@ document tools, image and media capabilities, folder browsing, export, and priva
 
 ## Installation
 
-For production, install Quick Peek through Microsoft Store when the listing becomes available.
+For production, [install Quick Peek through Microsoft Store](https://apps.microsoft.com/detail/9PNXLCSBV6TT).
 
 For the portable preview:
 
