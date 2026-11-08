@@ -14,8 +14,11 @@ is available. Please do not publish details while the investigation is active.
 
 ## Verifying downloads
 
-Official standalone releases contain a versioned executable and a matching `.sha256` file. Windows
-must report a valid Authenticode signature from Bytebrain before the executable is run. A checksum
-alone does not establish who published a file.
+The Microsoft Store package is the trusted production distribution and is signed by Microsoft.
+
+GitHub portable previews are intentionally unsigned and carry `-unsigned.exe` in their names. Each
+has a matching `.sha256` file and is published in an immutable release. The checksum detects a
+modified download but does not establish a Windows publisher identity. Windows may warn about or
+block these previews.
 
 Unsigned historical builds are unsupported and should not be installed.

@@ -5,13 +5,20 @@ Space to inspect it without opening another application.
 
 ## Downloads
 
-The standalone package will be available from this repository's
-[Releases](https://github.com/bytebraintechnologies/quick-peek-app/releases) page after the first
-signed production build is published.
+### Recommended: Microsoft Store
 
-Only download Quick Peek from this repository or its official Microsoft Store listing. Production
-executables are Authenticode-signed by Bytebrain Technology Solutions and accompanied by SHA-256
-checksums.
+Use the Microsoft Store for the trusted production installation. Microsoft signs the package and
+delivers updates automatically. The direct Store link will be added here as soon as the listing is
+live; until then, this repository is the official status page.
+
+### Portable preview
+
+The [Releases](https://github.com/bytebraintechnologies/quick-peek-app/releases) page provides an
+optional standalone preview. It is free to download but **not digitally signed**, so Windows may show
+an Unknown publisher or “Windows protected your PC” warning, and Smart App Control may block it.
+
+Use the portable preview only if you understand that limitation. Every preview has an explicit
+`-unsigned.exe` filename, a matching SHA-256 checksum, and an immutable GitHub release.
 
 ## Highlights
 
@@ -19,14 +26,18 @@ checksums.
 - Read PDF, Word, PowerPoint, e-book, and email formats.
 - Browse images, media, archives, folders, and 3D models.
 - Search, compare, inspect metadata, print, and export without leaving the preview.
-- Use either Microsoft Store-managed installation or a self-updating standalone build.
+- Use either the Microsoft Store-managed production installation or a self-updating portable preview.
 
 ## Installation
 
-1. Open the latest release.
-2. Download the versioned `QuickPeek-<version>-win-x64.exe` file.
-3. Confirm its Windows digital-signature status is valid and the publisher is Bytebrain.
-4. Run the executable and follow the welcome guide.
+For production, install Quick Peek through Microsoft Store when the listing becomes available.
+
+For the portable preview:
+
+1. Open the latest GitHub release.
+2. Download `QuickPeek-<version>-win-x64-unsigned.exe` and its `.sha256` file.
+3. Verify that the downloaded executable's SHA-256 value matches the checksum.
+4. Run it only if you accept the Windows unsigned-application warning.
 
 The repository intentionally contains no application source code. It is the official distribution,
 release-notes, and support repository for the proprietary Quick Peek application.
