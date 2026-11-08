@@ -28,6 +28,9 @@ Use the portable preview only if you understand that limitation. Every preview h
 - Search, compare, inspect metadata, print, and export without leaving the preview.
 - Use either the Microsoft Store-managed production installation or a self-updating portable preview.
 
+See the complete [Quick Peek feature catalog](FEATURES.md) for supported formats, navigation,
+document tools, image and media capabilities, folder browsing, export, and privacy behavior.
+
 ## Installation
 
 For production, install Quick Peek through Microsoft Store when the listing becomes available.
