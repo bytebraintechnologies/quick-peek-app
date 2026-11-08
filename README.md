@@ -47,10 +47,13 @@ For the portable preview:
 The repository intentionally contains no application source code. It is the official distribution,
 release-notes, and support repository for the proprietary Quick Peek application.
 
+Installing or using Quick Peek means you accept the [End-User License Agreement](EULA.md).
+
 ## Support and security
 
 - Read [SUPPORT.md](SUPPORT.md) before opening a support request.
 - Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
 - See [PRIVACY.md](PRIVACY.md) for the application's data-handling summary.
+- Read [EULA.md](EULA.md) for the terms governing use of the application.
 
 Copyright © 2026 Bytebrain Technology Solutions. All rights reserved.
