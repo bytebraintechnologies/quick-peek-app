@@ -1,36 +1,40 @@
-# Quick Peek
+# Quick Peek for Windows
 
-![GitHub all releases](https://img.shields.io/github/downloads/bytebraintechnologies/quick-peek-app/total?style=flat-square&label=Downloads&color=blue)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/bytebraintechnologies/quick-peek-app?style=flat-square&label=Latest&color=orange)
+Quick Peek is a fast Windows file previewer. Select a file or folder in File Explorer and press
+Space to inspect it without opening another application.
 
-A high-performance file previewer for Windows, inspired by macOS Quick Look.  
-Select any file in **File Explorer** or on your **Desktop** and press **Spacebar** to peek inside.
+## Downloads
 
-![Quick Peek Demo](preview.gif)
+The standalone package will be available from this repository's
+[Releases](https://github.com/bytebraintechnologies/quick-peek-app/releases) page after the first
+signed production build is published.
 
-## 🚀 Key Features
+Only download Quick Peek from this repository or its official Microsoft Store listing. Production
+executables are Authenticode-signed by Bytebrain Technology Solutions and accompanied by SHA-256
+checksums.
 
-- **Instant Office Previews**: High-fidelity rendering for **Word (.docx, .doc)**, **PowerPoint (.pptx, .ppt)**, and **Excel (.xlsx)** using installed Microsoft Office.
-- **Smart Caching**: Persistent background workers and fingerprint-based caching make document loading nearly instantaneous.
-- **Developer Friendly**: 
-  - Beautiful **Markdown Reader Mode** with GitHub styling.
-  - **Syntax Highlighting** for 100+ programming languages.
-  - **CSV & Excel** table views.
-- **Media Support**: Play Audio and Video files directly in the preview.
-- **Archive Explorer**: Peek inside **.zip** files and **Folders** without opening them.
-- **Windows 11 Integration**: Full support for Windows 11 Desktop and layered Explorer windows.
-- **System Tray Mode**: Runs silently in the background. Minimize to tray on close.
+## Highlights
 
-## 📦 How to Use
+- Preview source code, text, Markdown, JSON, XML, CSV, and spreadsheets.
+- Read PDF, Word, PowerPoint, e-book, and email formats.
+- Browse images, media, archives, folders, and 3D models.
+- Search, compare, inspect metadata, print, and export without leaving the preview.
+- Use either Microsoft Store-managed installation or a self-updating standalone build.
 
-1. Download the latest `quick-peek.exe` from the [Releases](https://github.com/bytebraintechnologies/quick-peek-app/releases) page.
-2. Run the application. You'll see the Quick Peek icon in your System Tray.
-3. In File Explorer or on your Desktop, select a file.
-4. Press **Space** to see the preview.
-5. Press **Space** again or **Esc** to close.
+## Installation
 
+1. Open the latest release.
+2. Download the versioned `QuickPeek-<version>-win-x64.exe` file.
+3. Confirm its Windows digital-signature status is valid and the publisher is Bytebrain.
+4. Run the executable and follow the welcome guide.
 
+The repository intentionally contains no application source code. It is the official distribution,
+release-notes, and support repository for the proprietary Quick Peek application.
 
-## 📜 License
+## Support and security
 
-Distributed under the MIT License. See `LICENSE` for more information.
+- Read [SUPPORT.md](SUPPORT.md) before opening a support request.
+- Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
+- See [PRIVACY.md](PRIVACY.md) for the application's data-handling summary.
+
+Copyright © 2026 Bytebrain Technology Solutions. All rights reserved.
